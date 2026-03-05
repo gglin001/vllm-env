@@ -54,7 +54,7 @@ torchvision = ">=0.25.0,<0.26"
 
 [environments]
 # default is implicit
-default = { features = ["cu129"] }
-# default = { features = ["cu130"] }
+# default = { features = ["cu129"] }
+default = { features = ["cu130"] }
 cu129 = { features = ["cu129"], no-default-feature = true }
 cu130 = { features = ["cu130"], no-default-feature = true }
